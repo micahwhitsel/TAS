@@ -1,4 +1,4 @@
 if (_state == "init") then
 {
-	[] call HUD_Medic_Initialize;
+	[] call HUD_BACS_Initialize;
 };
