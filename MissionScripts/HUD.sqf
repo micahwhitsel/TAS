@@ -167,6 +167,8 @@ HUD_BAACI_Initialize =
 {
 	HUD_BAACI_Icons = [];
 	["BAACI", HUD_BAACI_Icons] call HUD_GetMarkerIcons;
+
+	addMissionEventHandler ["Draw3D", HUD_BAACI_Draw];
 };
 
 ////////////////////////////
@@ -184,6 +186,8 @@ HUD_BAACS_Initialize =
 {
 	HUD_BAACS_Icons = [];
 	["BAACS", HUD_BACCS_Icons] call HUD_GetMarkerIcons;
+
+	addMissionEventHandler ["Draw3D", HUD_BAACS_Draw];
 };
 
 ///////////////////////////////
@@ -206,6 +210,8 @@ HUD_AAACI_Initialize =
 {
 	HUD_AAACI_Icons = [];
 	["AAACI", HUD_AAACI_Icons] call HUD_GetMarkerIcons;
+
+	addMissionEventHandler ["Draw3D", HUD_AAACI_Draw];
 };
 
 ////////////////////////////
@@ -224,6 +230,8 @@ HUD_AAACS_Initialize =
 {
 	HUD_AAACI_Icons = [];
 	["AAACS", HUD_AAACS_Icons] call HUD_GetMarkerIcons;
+
+	addMissionEventHandler ["Draw3D", HUD_AAACS_Draw];
 };
 
 ///////////////////////////////
@@ -246,6 +254,8 @@ HUD_BACI_Initialize =
 {
 	HUD_BACI_Icons = [];
 	["BACI", HUD_BACI_Icons] call HUD_GetMarkerIcons;
+
+	addMissionEventHandler ["Draw3D", HUD_BACI_Draw];
 };
 
 ////////////////////////////
@@ -264,6 +274,8 @@ HUD_BACS_Initialize =
 {
 	HUD_BACS_Icons = [];
 	["BACS", HUD_BACS_Icons] call HUD_GetMarkerIcons;
+
+	addMissionEventHandler ["Draw3D", HUD_BACS_Draw];
 };
 
 ///////////////////////////////
@@ -286,6 +298,8 @@ HUD_JMCI_Initialize =
 {
 	HUD_JMCI_Icons = [];
 	["JMCI", HUD_JMCI_Icons] call HUD_GetMarkerIcons;
+
+	addMissionEventHandler ["Draw3D", HUD_JMCI_Draw];
 };
 
 ////////////////////////////
@@ -304,6 +318,8 @@ HUD_JMCS_Initialize =
 {
 	HUD_JMCS_Icons = [];
 	["JMCS", HUD_JMCS_Icons] call HUD_GetMarkerIcons;
+
+	addMissionEventHandler ["Draw3D", HUD_JMCS_Draw];
 };
 
 //END OF FILE
